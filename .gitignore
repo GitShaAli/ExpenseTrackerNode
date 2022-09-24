@@ -1,0 +1,15 @@
+
+node_modules/
+
+
+.npm
+
+
+.env
+
+
+nodemon.json
+
+
+server.cert
+server.key

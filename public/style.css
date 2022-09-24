@@ -1,0 +1,101 @@
+body{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* background-color: rgb(208, 252, 237); */
+    background-image: radial-gradient(#d0fced,#54aa8d);
+}
+h1 {
+    position: relative;
+    font-size: 4rem;
+    color: #015d4ccc;
+    text-shadow: 0px 4px 10px #3b8a70;
+    font-family: Comic Sans MS;
+  }
+
+ h2{
+    font-family: Comic Sans MS;
+ }
+ p{
+    font-family: MV Boli;
+ }
+.container{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 55px auto 20px;
+    padding: 10px;
+    width: 800px;
+    background-color: #54aa8d;
+    box-shadow: rgba(0, 0, 0, 0.24) 7px 7px 7px;
+    max-width: 70%;
+}
+input,select{
+    border: none;
+    border-bottom: 5px solid #015d4ccc;
+    background-color: rgb(177, 238, 218);
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #015d4ccc;
+    width: 80%;
+    max-width: 40%;
+    margin: 8px 0;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 10px;
+    transition: .3s box-shadow;
+}
+select{
+    width: 85%;
+}
+input:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+  }
+::placeholder{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: rgb(84, 170, 141);
+}
+
+a{
+    border-bottom: 1px solid #015d4ccc;
+    padding: auto 4px auto;
+}
+
+a:link,a:visited {
+    color: #015d4ccc;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+
+
+.btn{
+    background-color: rgb(177, 238, 218);
+    color: #015d4ccc;;
+    font-size: 16px;
+    box-shadow: inset;
+    border: none;
+    cursor: pointer;
+    padding:5px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 10px;
+    transition: .3s box-shadow;
+    font-family: Comic Sans MS;
+    letter-spacing: 2px;
+}
+.btn:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+#notification-container{
+    background-color: rgb(208, 252, 237);
+    border: 1px;
+    box-shadow: rgba(0, 0, 0, 0.24) 5px 5px 10px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+span{
+    background-image: radial-gradient(#553c9a, #ee4b2b);
+}

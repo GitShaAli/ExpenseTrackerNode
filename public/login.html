@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parentContainer">
+        <h1>Expense Tracker</h1>
+        <div class="container" id="container">
+            <div id="notification-container"></div>
+            <form onsubmit="login(event)">
+                <h2 style="color: white;">User Login . . .</h2>
+                <input type="email" placeholder="email" id="email" required>
+                <input type="password" placeholder="password" id="password" required>
+                <button type="submit" class="btn">Login</button>
+                <p>Not a User ?  <a href="registrationPage.html">Register</a></p>
+                <p>Forgot Password ?  <a href="forgetForm.html">click here to reset.</a></p>
+                <!-- Forgot Password ? <button onclick="window.location='E:/ExpenseTracker-NodeJs/forgetForm.html';">click here</button> -->
+                
+            </form>
+        </div>
+    </div>    
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin='anonymous'  referrerpolicy="no-referrer"></script>
+</body>
+</html>
